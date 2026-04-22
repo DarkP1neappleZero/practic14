@@ -1,6 +1,6 @@
 import random
 
-print("\n=== Задача 4: Поиск элемента ===")
+print("=== Поиск элемента ===")
 
 rows = 3
 cols = 4
@@ -16,7 +16,7 @@ print("Матрица:")
 for row in matrix:
     print(row)
 
-search_num = int(input("\nВведите число для поиска (1-5): "))
+search_num = int(input("Введите число для поиска (1-5): "))
 
 found = False
 for i in range(rows):
