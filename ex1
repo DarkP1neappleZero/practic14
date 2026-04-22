@@ -1,6 +1,6 @@
 import random
 
-print("=== Задача 1: Поиск максимального элемента ===")
+print("Поиск максимального элемента")
 
 rows = 3
 cols = 4
@@ -27,5 +27,5 @@ for i in range(rows):
             max_row = i
             max_col = j
 
-print(f"\nМаксимальный элемент: {max_value}")
+print(f"Максимальный элемент: {max_value}")
 print(f"Находится в строке {max_row}, столбце {max_col}")
